@@ -1,71 +1,29 @@
 # Calculator Symbolic Computation
 
-A recursive calculator implemented in Python that performs mathematical operations using only **addition (+) and subtraction (-)**. This project is part of a Numerical Calculation assignment and supports basic arithmetic, exponentiation, factorial, and Fibonacci sequence calculation.
+A recursive calculator that simulates arithmetic operations using only **addition (+) and subtraction (-)**. The project explores numerical computation concepts, recursion, and algorithmic efficiency.
 
-## 📌 Features
+## 🔹 Overview
 
-✅ Addition, Subtraction, Multiplication, and Division (Integer-based)  
-✅ Exponentiation using recursion  
-✅ Factorial computation  
-✅ Fibonacci sequence with memoization optimization  
-✅ Graphical User Interface (GUI) with Tkinter  
+This implementation ensures that all operations—multiplication, division, exponentiation, factorial, and Fibonacci—are derived exclusively from addition and subtraction, reinforcing numerical computation principles.
 
-## 🛠️ Installation
+## 🔹 Methodology
 
-Ensure you have Python installed (>= 3.8). Clone this repository and install dependencies:
+- **Multiplication**: Defined as repeated addition.  
+- **Division**: Implemented via iterative subtraction, returning quotient and remainder.  
+- **Exponentiation**: Expressed as recursive multiplication.  
+- **Factorial**: Computed recursively using defined multiplication.  
+- **Fibonacci**: Optimized with memoization to improve performance.
 
-```sh
-# Clone the repository
-git clone https://github.com/azuletto/calculator-symbolic-computation.git
-cd calculator-symbolic-computation
+## 🔹 Usage
 
-# Run the application
-python calculadora.py
-```
-
-## 📚 How It Works
-
-### 🔢 Arithmetic Operations (Recursive)
-- **Addition & Subtraction**: Directly implemented.
-- **Multiplication**: Uses repeated addition.
-- **Division**: Uses repeated subtraction, returning both quotient and remainder.
-- **Exponentiation**: Uses recursive multiplication.
-- **Factorial**: Uses recursive multiplication.
-- **Fibonacci**: Uses recursion with memoization for efficiency.
-
-### 🏗️ Project Structure
-
-```
-calculator-symbolic-computation/
-│── operations/
-│   ├── soma.py        # Addition
-│   ├── subtracao.py   # Subtraction
-│   ├── multiplicacao.py # Multiplication using recursion
-│   ├── divisao.py     # Integer division using subtraction
-│   ├── exponencial.py # Exponentiation using recursive multiplication
-│   ├── fatorial.py    # Factorial using recursion
-│   ├── fibonacci.py   # Fibonacci with memoization
-│── calculadora.py      # GUI implementation with Tkinter
-│── README.md          # Documentation
-```
-
-## 🖥️ Running the GUI
-
-To run the graphical interface, execute:
+Clone the repository and execute:
 
 ```sh
 python calculadora.py
 ```
 
-### 📌 GUI Features
-- User-friendly interface with input fields and buttons for each operation.
-- Displays results dynamically in a text box.
-- Prevents division by zero with error handling.
+The graphical interface (Tkinter) allows users to input values and perform operations dynamically.
 
 ## 📜 License
 
-This project is licensed under the MIT License. Feel free to contribute or modify.
-
----
-
-**Author:** [azuletto](https://github.com/azuletto)
+This project is licensed under the MIT License. See the `LICENSE` file for details.
